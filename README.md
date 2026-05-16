@@ -1,4 +1,4 @@
-# # Kean Gutierrez
+# Kean Gutierrez
 
 ## GIS Automation | Geospatial AI | Python Development
 
@@ -20,7 +20,8 @@ I specialize in:
 * ArcGIS Pro scripting and toolbox development
 * Infrastructure and utility data analysis
 * Large-scale geospatial data processing
-* Object detection and segmentation using YOLOv8
+* Object detection using YOLOv8
+* Point cloud processing and 3D spatial analysis
 * Spatial QA/QC and workflow optimization
 
 I enjoy solving technical GIS problems that require a combination of scripting, analysis, automation, and visual interpretation.
@@ -58,6 +59,7 @@ I enjoy solving technical GIS problems that require a combination of scripting, 
 * Computer Vision Workflows
 * Segmentation Models
 * Infrastructure Detection Models
+* Point Cloud Classification
 
 ## Additional Skills
 
@@ -76,7 +78,7 @@ I enjoy solving technical GIS problems that require a combination of scripting, 
 
 Developed and trained custom YOLOv8 models to detect utility poles from roadway and street-level imagery. Created automated workflows for processing imagery, generating detection outputs, and logging object information for infrastructure analysis.
 
-### Highlights
+**Highlights:**
 
 * Custom object detection training workflows
 * Bounding box visualization and processing
@@ -84,8 +86,7 @@ Developed and trained custom YOLOv8 models to detect utility poles from roadway 
 * Video-based object tracking concepts
 * Detection logging and automation
 
-### Technologies
-
+**Technologies:**
 Python • YOLOv8 • OpenCV • ArcGIS Pro
 
 ---
@@ -94,7 +95,7 @@ Python • YOLOv8 • OpenCV • ArcGIS Pro
 
 Developed ArcGIS Pro automation scripts to dynamically update route classifications based on nearby infrastructure detections and spatial relationships.
 
-### Highlights
+**Highlights:**
 
 * Automated feature updates using ArcPy
 * Reduced manual GIS editing effort
@@ -102,44 +103,37 @@ Developed ArcGIS Pro automation scripts to dynamically update route classificati
 * Batch processing of route datasets
 * QA/QC enhancement workflows
 
-### Technologies
-
+**Technologies:**
 ArcPy • ArcGIS Pro • Python • Spatial Analysis
 
 ---
 
-## Midspan Height Calculation Automation
+## ArcGIS Pro AI Assistant (Custom Plugin Tool)
 
-Created automated Excel and GIS workflows to calculate utility midspan heights using engineering collection data.
+Developed a custom ArcGIS Pro assistant integrated as a plugin/external window tool within the ArcGIS Pro environment. The assistant understands the full active project workspace, including `.aprx` state, geodatabases, shapefiles, and layers in the Contents pane.
 
-### Highlights
+**Capabilities:**
 
-* Automated spreadsheet parsing
-* Height extraction and transformation
-* Engineering workflow automation
-* Utility span analysis logic
-* Reduced repetitive manual calculations
-
-### Technologies
-
-Python • Pandas • Excel Automation
+* Understands full ArcGIS Pro workspace context (.aprx)
+* Analyzes active maps, layers, and geodatabases
+* Executes geoprocessing tools using natural language commands
+* Generates and modifies Python (ArcPy) scripts dynamically
+* Runs scripts in ArcGIS Pro Python window or externally
+* Automates spatial analysis and GIS workflows
 
 ---
 
-## Sidewalk Segmentation & Detection Research
+## Point Cloud Classification & 3D Object Detection
 
-Explored segmentation workflows for identifying sidewalks from aerial and satellite imagery using AI-assisted methods.
+Developed a point cloud processing system for analyzing LAS and E57 files for 3D spatial intelligence.
 
-### Highlights
+**Highlights:**
 
-* Segmentation-based detection workflows
-* Polygon extraction concepts
-* Spatial feature refinement
-* Imagery interpretation automation
-
-### Technologies
-
-Computer Vision • GIS • Segmentation Models
+* Custom point cloud viewer for LAS/E57 files
+* Object detection within 3D environments
+* Infrastructure classification workflows
+* LiDAR-based spatial analysis tools
+* 3D feature extraction concepts
 
 ---
 
@@ -152,7 +146,7 @@ My work and interests focus heavily on the intersection of:
 * Infrastructure Analysis
 * Spatial Automation
 * Computer Vision
-* Utility Engineering Support
+* Point Cloud / LiDAR Processing
 * Geospatial Data Science
 
 I am particularly interested in building systems that automate traditionally manual GIS and engineering workflows using Python and AI-assisted analysis.
@@ -173,5 +167,5 @@ I am particularly interested in building systems that automate traditionally man
 # Contact
 
 Email: [kgutierrez02@gmail.com](mailto:kgutierrez02@gmail.com)
-LinkedIn: Add LinkedIn URL
 GitHub: [https://github.com/kgutierrez02-eng](https://github.com/kgutierrez02-eng)
+LinkedIn: Add LinkedIn URL
