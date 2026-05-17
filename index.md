@@ -1,178 +1,99 @@
 ---
-
 layout: home
-title: "GIS, AI, and Automation Portfolio"
+title: Kean Gutierrez
 permalink: /
-------------
+---
 
 # Kean Gutierrez
 
 ## GIS Automation | Geospatial AI | Python Development
 
-Kansas City, Missouri
-Python • ArcGIS Pro • ArcPy • YOLOv8 • Computer Vision • Spatial Analysis
+Kansas City, Missouri  
+Python • ArcGIS Pro • ArcPy • YOLOv8 • Computer Vision • Spatial Analysis • Point Cloud Processing
 
 ---
 
-# About Me
+## About Me
 
-I am a GIS and geospatial automation professional focused on developing scalable workflows, AI-assisted geospatial analysis tools, and Python automation solutions for infrastructure and utility-related projects.
+GIS and geospatial automation professional focused on building scalable workflows, AI-driven geospatial systems, and Python-based automation tools for infrastructure and utility analysis.
 
-My work combines GIS, computer vision, automation scripting, and spatial analysis to improve workflow efficiency and extract actionable information from imagery, mapping systems, and engineering datasets.
-
-I specialize in:
-
-* GIS workflow automation using Python and ArcPy
-* Geospatial AI and computer vision applications
-* ArcGIS Pro scripting and toolbox development
-* Infrastructure and utility data analysis
-* Large-scale geospatial data processing
-* Object detection using YOLOv8
-* Point cloud processing and 3D spatial analysis
-* Spatial QA/QC and workflow optimization
-
-I enjoy solving technical GIS problems that require a combination of scripting, analysis, automation, and visual interpretation.
+My work combines GIS, computer vision, automation scripting, and spatial analysis to extract actionable insights from imagery, LiDAR, and engineering datasets.
 
 ---
 
-# Technical Skills
+## Featured Focus Areas
 
-## GIS & Mapping
-
-* ArcGIS Pro
-* ArcGIS Online
-* ArcPy
-* Geodatabases
-* Spatial Analysis
-* Cartography
-* Feature Class Management
-* GIS Workflow Automation
-
-## Programming & Automation
-
-* Python
-* SQL
-* Pandas
-* OpenCV
-* REST API Integration
-* Excel Automation
-* Data Processing Pipelines
-
-## AI & Computer Vision
-
-* YOLOv8
-* Object Detection
-* Image Annotation Pipelines
-* Computer Vision Workflows
-* Segmentation Models
-* Infrastructure Detection Models
-* Point Cloud Classification
-
-## Additional Skills
-
-* QA/QC Processes
-* Technical Troubleshooting
-* Workflow Optimization
-* Infrastructure Mapping
-* Utility Data Analysis
-* Process Automation
+- GIS Workflow Automation (ArcPy / ArcGIS Pro)
+- Geospatial AI & Computer Vision (YOLOv8)
+- Point Cloud & LiDAR Analysis (LAS / E57)
+- Infrastructure & Utility Data Systems
+- Spatial Data Engineering & QA/QC Automation
 
 ---
 
-# Featured Projects
+## Featured Projects
 
-## Utility Pole Detection Using YOLOv8
+### Utility Pole Detection (YOLOv8)
 
-Developed and trained custom YOLOv8 models to detect utility poles from roadway and street-level imagery. Created automated workflows for processing imagery, generating detection outputs, and logging object information for infrastructure analysis.
+AI system for detecting utility poles in street-level and roadway imagery using custom-trained object detection models.
 
 **Highlights:**
-
-* Custom object detection training workflows
-* Bounding box visualization and processing
-* Pole height estimation experimentation
-* Video-based object tracking concepts
-* Detection logging and automation
-
-**Technologies:**
-Python • YOLOv8 • OpenCV • ArcGIS Pro
+- Custom YOLOv8 training pipeline
+- Detection logging and automation workflows
+- Bounding box visualization
+- Video-based inference processing
 
 ---
 
-## GIS Route Classification Automation
+### GIS Route Classification Automation
 
-Developed ArcGIS Pro automation scripts to dynamically update route classifications based on nearby infrastructure detections and spatial relationships.
+ArcGIS Pro automation system for updating route classifications based on spatial relationships and infrastructure detections.
 
 **Highlights:**
-
-* Automated feature updates using ArcPy
-* Reduced manual GIS editing effort
-* Spatial proximity analysis workflows
-* Batch processing of route datasets
-* QA/QC enhancement workflows
-
-**Technologies:**
-ArcPy • ArcGIS Pro • Python • Spatial Analysis
+- ArcPy-based workflow automation
+- Batch geodatabase processing
+- Spatial proximity analysis
+- QA/QC workflow improvements
 
 ---
 
-## ArcGIS Pro AI Assistant (Custom Plugin Tool)
+### ArcGIS Pro AI Assistant (Custom Plugin Tool)
 
-Developed a custom ArcGIS Pro assistant integrated as a plugin/external window tool within the ArcGIS Pro environment. The assistant understands the full active project workspace, including `.aprx` state, geodatabases, shapefiles, and layers in the Contents pane.
+A custom ArcGIS Pro extension that acts as an intelligent assistant inside the ArcGIS Pro environment.
+
+Understands:
+- Active `.aprx` project state
+- Layers in Contents pane
+- Geodatabases and shapefiles
 
 **Capabilities:**
-
-* Understands full ArcGIS Pro workspace context (.aprx)
-* Analyzes active maps, layers, and geodatabases
-* Executes geoprocessing tools using natural language commands
-* Generates and modifies Python (ArcPy) scripts dynamically
-* Runs scripts in ArcGIS Pro Python window or externally
-* Automates spatial analysis and GIS workflows
+- Executes geoprocessing tools from natural language
+- Generates ArcPy scripts dynamically
+- Runs scripts inside ArcGIS Pro or externally
+- Automates spatial analysis workflows
 
 ---
 
-## Point Cloud Classification & 3D Object Detection
+### Point Cloud Classification & 3D Object Detection
 
-Developed a point cloud processing system for analyzing LAS and E57 files for 3D spatial intelligence.
+System for analyzing LAS and E57 point cloud data for 3D spatial intelligence and object detection.
 
 **Highlights:**
-
-* Custom point cloud viewer for LAS/E57 files
-* Object detection within 3D environments
-* Infrastructure classification workflows
-* LiDAR-based spatial analysis tools
-* 3D feature extraction concepts
+- Custom LAS/E57 viewer
+- 3D object detection workflows
+- Infrastructure classification
+- LiDAR-based spatial analysis
 
 ---
 
-# Experience & Interests
+## Tech Stack
 
-My work and interests focus heavily on the intersection of:
-
-* GIS
-* Artificial Intelligence
-* Infrastructure Analysis
-* Spatial Automation
-* Computer Vision
-* Point Cloud / LiDAR Processing
-* Geospatial Data Science
-
-I am particularly interested in building systems that automate traditionally manual GIS and engineering workflows using Python and AI-assisted analysis.
+Python • ArcGIS Pro • ArcPy • YOLOv8 • OpenCV • Pandas • SQL • LiDAR Processing • REST APIs
 
 ---
 
-# Current Focus Areas
+## Contact
 
-* Geospatial AI applications
-* Infrastructure computer vision systems
-* GIS automation pipelines
-* Interactive geospatial web applications
-* AI-assisted utility analysis
-* Spatial workflow optimization
-
----
-
-# Contact
-
-Email: [kgutierrez02@gmail.com](mailto:kgutierrez02@gmail.com)
-GitHub: [https://github.com/kgutierrez02-eng](https://github.com/kgutierrez02-eng)
+Email: kgutierrez02@gmail.com  
+GitHub: https://github.com/kgutierrez02-eng  
 LinkedIn: Add LinkedIn URL
