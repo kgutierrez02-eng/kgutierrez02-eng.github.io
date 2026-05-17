@@ -1,0 +1,9 @@
+title: "Kean Gutierrez"
+description: "GIS Automation | Geospatial AI | Python Development"
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+
+markdown: kramdown
