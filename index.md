@@ -4,8 +4,6 @@ title: Kean Gutierrez
 permalink: /
 ---
 
-# Kean Gutierrez
-
 ## GIS Automation | Geospatial AI | Python Development
 
 Kansas City, Missouri  
