@@ -96,4 +96,4 @@ Python • ArcGIS Pro • ArcPy • YOLOv8 • OpenCV • Pandas • SQL • LiD
 
 Email: kgutierrez02@gmail.com  
 GitHub: https://github.com/kgutierrez02-eng  
-LinkedIn: Add LinkedIn URL
+LinkedIn: www.linkedin.com/in/kean-gutierrez-a26145256
