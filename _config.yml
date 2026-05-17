@@ -6,4 +6,4 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
-markdown: kramdown
+minimal_mistakes_skin: "dark"
