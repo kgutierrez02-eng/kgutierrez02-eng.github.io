@@ -59,14 +59,14 @@ ArcGIS Pro automation system for updating route classifications based on spatial
 
 A custom ArcGIS Pro extension that acts as an intelligent assistant inside the ArcGIS Pro environment.
 
-<img src="{{ '/images/Arcgisproaiassistant.PNG' | relative_url }}" width="900">
+<img src="{{ '/images/Arcgisproaiassistant.png' | relative_url }}" width="900">
 
 Understands:
 - Active `.aprx` project state
 - Layers in Contents pane
 - Geodatabases and shapefiles
 
-<img src="{{ '/images/ExternalPOC2.PNG' | relative_url }}" width="900">
+<img src="{{ '/images/ExternalPOC2.png' | relative_url }}" width="900">
 
 **Capabilities:**
 - Executes geoprocessing tools from natural language
@@ -74,7 +74,7 @@ Understands:
 - Runs scripts inside ArcGIS Pro or externally
 - Automates spatial analysis workflows
 
-<img src="{{ '/images/externalassistant2.PNG' | relative_url }}" width="900">
+<img src="{{ '/images/externalassistant2.png' | relative_url }}" width="900">
 
 ---
 
