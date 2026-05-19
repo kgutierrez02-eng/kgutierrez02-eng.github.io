@@ -59,16 +59,22 @@ ArcGIS Pro automation system for updating route classifications based on spatial
 
 A custom ArcGIS Pro extension that acts as an intelligent assistant inside the ArcGIS Pro environment.
 
+
+
 Understands:
 - Active `.aprx` project state
 - Layers in Contents pane
 - Geodatabases and shapefiles
+
+<img src="/images/ExternalPOC2.png" width="800">
 
 **Capabilities:**
 - Executes geoprocessing tools from natural language
 - Generates ArcPy scripts dynamically
 - Runs scripts inside ArcGIS Pro or externally
 - Automates spatial analysis workflows
+
+<img src="/images/externalassistant2.png" width="800">
 
 ---
 
