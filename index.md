@@ -59,7 +59,7 @@ ArcGIS Pro automation system for updating route classifications based on spatial
 
 A custom ArcGIS Pro extension that acts as an intelligent assistant inside the ArcGIS Pro environment.
 
-
+<img src="{{ '/images/Arcgisproaiassistant.png' | relative_url }}" width="900">
 
 Understands:
 - Active `.aprx` project state
