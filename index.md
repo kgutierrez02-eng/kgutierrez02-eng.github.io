@@ -66,7 +66,7 @@ Understands:
 - Layers in Contents pane
 - Geodatabases and shapefiles
 
-<img src="/images/ExternalPOC2.PNG" width="800">
+<img src="{{ '/images/ExternalPOC2.png' | relative_url }}" width="900">
 
 **Capabilities:**
 - Executes geoprocessing tools from natural language
@@ -74,7 +74,7 @@ Understands:
 - Runs scripts inside ArcGIS Pro or externally
 - Automates spatial analysis workflows
 
-<img src="/images/externalassistant2.PNG" width="800">
+<img src="{{ '/images/externalassistant2.png' | relative_url }}" width="900">
 
 ---
 
