@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kean Gutierrez | GIS &amp; Geospatial Engineer</title>
+  <meta name="description" content="GIS Automation · Geospatial AI · Python Development. Portfolio of Kean Gutierrez, Kansas City.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">KG</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">GIS &amp; Geospatial Engineer</div>
+      <h1>Kean <span class="accent">Gutierrez</span></h1>
+      <p class="hero-subtitle">GIS Automation &nbsp;·&nbsp; Geospatial AI &nbsp;·&nbsp; Python Development</p>
+      <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Kansas City, Missouri</p>
+      <div class="hero-cta">
+        <a href="https://github.com/kgutierrez02-eng" class="btn btn-primary" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/kean-gutierrez-a26145256" class="btn btn-secondary" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:kgutierrez02@gmail.com" class="btn btn-outline">
+          <i class="fas fa-envelope"></i> Contact Me
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <a href="#about" aria-label="Scroll to About"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a GIS and geospatial automation engineer focused on building scalable workflows, AI-driven systems, and Python-based automation tools for infrastructure and utility analysis.</p>
+          <p>My work bridges GIS, computer vision, and software engineering to extract actionable intelligence from LiDAR point clouds, aerial imagery, and engineering datasets to power real-world infrastructure decisions.</p>
+          <p>Currently building <strong>Viewer 2.0</strong>, a web-based LiDAR point cloud viewer with AI-powered utility pole detection, running on React, FastAPI, and MapLibre GL.</p>
+        </div>
+        <div class="about-focus">
+          <h3>Focus Areas</h3>
+          <ul class="focus-list">
+            <li><i class="fas fa-map"></i> GIS Workflow Automation (ArcPy / ArcGIS Pro)</li>
+            <li><i class="fas fa-brain"></i> Geospatial AI &amp; Computer Vision (YOLOv8)</li>
+            <li><i class="fas fa-cube"></i> Point Cloud &amp; LiDAR Analysis (LAS / E57)</li>
+            <li><i class="fas fa-network-wired"></i> Infrastructure &amp; Utility Data Systems</li>
+            <li><i class="fas fa-database"></i> Spatial Data Engineering &amp; QA/QC Automation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+
+      <!-- ── Featured: Viewer 2.0 ── -->
+      <div class="project-featured reveal">
+        <div class="project-featured-badge">Latest Project</div>
+        <div class="project-featured-content">
+          <h3>Viewer 2.0 <span class="status-badge status-active">In Progress</span></h3>
+          <p>Web-based LiDAR point cloud viewer for utility pole detection and corridor review. Migrates the visualization and interaction layer from a desktop application to a modern full-stack web platform while preserving all proven detection logic and reviewer workflow.</p>
+          <div class="project-video">
+            <video controls muted playsinline loop poster="images/Pointcloudviewer.PNG">
+              <source src="images/viewerapp%201.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p class="video-caption">Live demo — Viewer 2.0 in action</p>
+          </div>
+          <ul class="project-highlights">
+            <li>React 18 + TypeScript frontend with MapLibre GL + deck.gl for native browser point cloud rendering</li>
+            <li>FastAPI + RQ + Redis backend with live SSE job progress</li>
+            <li>Accept/Reject candidate review workflow with persistent backend state</li>
+            <li>CSV, Shapefile (WGS84), and GeoJSON export pipeline</li>
+            <li>E57 → COPC LAZ auto-conversion via PDAL backend pipeline</li>
+            <li>Dockerized full-stack deployment with configurable basemap</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">React 18</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Vite</span>
+            <span class="tag">MapLibre GL</span>
+            <span class="tag">deck.gl</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">Python</span>
+            <span class="tag">Redis</span>
+            <span class="tag">Docker</span>
+            <span class="tag">LiDAR</span>
+            <span class="tag">PDAL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Project Cards Grid ── -->
+      <div class="projects-grid">
+
+        <!-- ArcGIS Pro AI Assistant -->
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <i class="fas fa-robot project-icon"></i>
+            <h3>ArcGIS Pro AI Assistant</h3>
+            <span class="project-type">Custom Plugin Tool</span>
+          </div>
+          <p>A custom ArcGIS Pro extension that acts as an intelligent assistant inside the ArcGIS Pro environment, understanding the active project, layers, and geodatabases to execute geoprocessing from natural language.</p>
+          <div class="screenshot-gallery">
+            <div class="project-screenshots">
+              <img src="images/Arcgisproaiassistant.PNG" alt="ArcGIS Pro AI Assistant - main interface" loading="lazy">
+            </div>
+            <div class="project-screenshots">
+              <img src="images/ExternalPOC.PNG" alt="ArcGIS Pro AI Assistant - external POC" loading="lazy">
+            </div>
+            <div class="project-screenshots">
+              <img src="images/ExternalPOC2.PNG" alt="ArcGIS Pro AI Assistant - external POC 2" loading="lazy">
+            </div>
+            <div class="project-screenshots">
+              <img src="images/externalassistant.PNG" alt="ArcGIS Pro AI Assistant - external assistant" loading="lazy">
+            </div>
+            <div class="project-screenshots">
+              <img src="images/externalassistant2.PNG" alt="ArcGIS Pro AI Assistant - external assistant view" loading="lazy">
+            </div>
+          </div>
+          <ul class="project-highlights">
+            <li>Executes geoprocessing tools from natural language commands</li>
+            <li>Generates and runs ArcPy scripts dynamically</li>
+            <li>Reads active <code>.aprx</code> project state, layers, and geodatabases</li>
+            <li>Supports both in-process and external script execution</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">ArcGIS Pro</span>
+            <span class="tag">ArcPy</span>
+            <span class="tag">LLM</span>
+            <span class="tag">Plugin Dev</span>
+          </div>
+        </div>
+
+        <!-- Utility Pole Detection -->
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <i class="fas fa-eye project-icon"></i>
+            <h3>Utility Pole Detection</h3>
+            <span class="project-type">AI / Computer Vision</span>
+          </div>
+          <p>AI system for detecting utility poles in street-level and roadway imagery using a custom-trained YOLOv8 object detection model with automated logging and video inference support.</p>
+          <div class="screenshot-gallery">
+            <div class="project-screenshots">
+              <img src="images/Visionlab.PNG" alt="Vision Lab - detection training interface" loading="lazy">
+            </div>
+            <div class="project-screenshots">
+              <img src="images/Visionlabimport.PNG" alt="Vision Lab - data import and labeling" loading="lazy">
+            </div>
+          </div>
+          <ul class="project-highlights">
+            <li>Custom YOLOv8 training pipeline with labeled imagery</li>
+            <li>Automated detection logging and workflow integration</li>
+            <li>Bounding box visualization and confidence scoring</li>
+            <li>Video-based inference processing for roadway corridors</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">YOLOv8</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">ML Training</span>
+          </div>
+        </div>
+
+        <!-- GIS Route Classification -->
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <i class="fas fa-route project-icon"></i>
+            <h3>GIS Route Classification</h3>
+            <span class="project-type">Automation</span>
+          </div>
+          <p>ArcGIS Pro automation system for updating route classifications based on spatial relationships and infrastructure detection results, replacing manual GIS workflows with batch-automated processing.</p>
+          <ul class="project-highlights">
+            <li>ArcPy-based end-to-end workflow automation</li>
+            <li>Batch geodatabase and feature class processing</li>
+            <li>Spatial proximity analysis and attribute updates</li>
+            <li>QA/QC pipeline with automated validation checks</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">ArcPy</span>
+            <span class="tag">ArcGIS Pro</span>
+            <span class="tag">Spatial Analysis</span>
+            <span class="tag">QA/QC</span>
+          </div>
+        </div>
+
+        <!-- Point Cloud Classification -->
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <i class="fas fa-cubes project-icon"></i>
+            <h3>Point Cloud Classification</h3>
+            <span class="project-type">3D Spatial Analysis</span>
+          </div>
+          <p>Desktop system for analyzing LAS and E57 point cloud data for 3D spatial intelligence, infrastructure classification, and utility object detection. The detection core that powers Viewer 2.0.</p>
+          <div class="screenshot-gallery">
+            <div class="project-screenshots">
+              <img src="images/Pointcloudviewer.PNG" alt="Point cloud viewer interface" loading="lazy">
+            </div>
+            <div class="project-screenshots">
+              <img src="images/Pointcloud360.PNG" alt="360-degree point cloud view" loading="lazy">
+            </div>
+            <div class="project-screenshots">
+              <img src="images/Pointcloud1.PNG" alt="Point cloud data view 1" loading="lazy">
+            </div>
+            <div class="project-screenshots">
+              <img src="images/Pointcloud2.PNG" alt="Point cloud data view 2" loading="lazy">
+            </div>
+            <div class="project-screenshots">
+              <img src="images/Pointclouddetection.PNG" alt="Point cloud detection results" loading="lazy">
+            </div>
+          </div>
+          <ul class="project-highlights">
+            <li>Ground normalization → height filtering → voxel downsample → DBSCAN clustering</li>
+            <li>Per-cluster PCA feature extraction and branching score analysis</li>
+            <li>Wire signature detection (linearity, clearance zone, compass bins)</li>
+            <li>Scoring thresholds, duplicate suppression, AGL height calculation</li>
+          </ul>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">LiDAR</span>
+            <span class="tag">LAS / E57</span>
+            <span class="tag">DBSCAN</span>
+            <span class="tag">PCA</span>
+            <span class="tag">3D Analysis</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-map"></i> GIS &amp; Geospatial</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">ArcGIS Pro</span>
+            <span class="skill-tag">ArcPy</span>
+            <span class="skill-tag">MapLibre GL</span>
+            <span class="skill-tag">Spatial Analysis</span>
+            <span class="skill-tag">Geodatabases</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-brain"></i> AI / ML</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">YOLOv8</span>
+            <span class="skill-tag">Computer Vision</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">DBSCAN</span>
+            <span class="skill-tag">Object Detection</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-cube"></i> LiDAR / 3D</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">LAS / LAZ</span>
+            <span class="skill-tag">E57</span>
+            <span class="skill-tag">PDAL</span>
+            <span class="skill-tag">deck.gl</span>
+            <span class="skill-tag">COPC</span>
+            <span class="skill-tag">Point Cloud</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-server"></i> Backend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">RQ</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">SSE</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-desktop"></i> Frontend &amp; Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">React 18</span>
+            <span class="skill-tag">Vite</span>
+            <span class="skill-tag">Zustand</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">Git</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-intro">I'm open to discussing projects, collaborations, or geospatial engineering opportunities.</p>
+      <div class="contact-links">
+        <a href="mailto:kgutierrez02@gmail.com" class="contact-link">
+          <i class="fas fa-envelope"></i>
+          <span>kgutierrez02@gmail.com</span>
+        </a>
+        <a href="https://github.com/kgutierrez02-eng" class="contact-link" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+          <span>kgutierrez02-eng</span>
+        </a>
+        <a href="https://www.linkedin.com/in/kean-gutierrez-a26145256" class="contact-link" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
+          <span>kean-gutierrez</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kean Gutierrez &nbsp;·&nbsp; Built with purpose.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
